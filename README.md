@@ -1,6 +1,9 @@
-# Sp00kyVectors: Vector Analysis Wrapper for Python
+# Spectral: A Vector Analysis Wrapper for Python
 
-Welcome to **Sp00kyVectors**, the software powering your Tricorder. 🛸
+
+Welcome to Spectral, the software made for human and machine learning.
+
+Spectral is a teaching and exploratory curriculum. Now, with AI being far better at programming, we humans can focus on the big ideas rather than syntax and grammar. This guide will walk you through hands-on teaching of computer science as a tool for understanding the “why” and “how” of numbers and formulae. It is meant to shorten the onboarding ramp of these arcane foundational tools—NumPy, Pandas, Matplotlib, etc.—so one can play with data more freely and effortlessly.
 
 These eerily intuitive Python modules work seamlessly as one toolkit for:
 
@@ -11,7 +14,6 @@ These eerily intuitive Python modules work seamlessly as one toolkit for:
 - 🧠 **Bespoke neural net creation**
 - 🌌 **Visualizations** 🪄👻
 
-Perfect for any away missions 🖖
 
 > 100% open-source and always summoning new engineers to help!
 
@@ -35,7 +37,7 @@ Missing columns in any file are automatically filled with `NaN` values to mainta
 
 Perfect for messy datasets where CSVs don't share the exact same structure!
 
-Cleaning is done one layer up with `sp00kyDF.get_clean_df()` ✨🧹
+Cleaning is done one layer up with `Spectral.get_clean_df()` ✨🧹
 
 This method returns a cleaned version of the DataFrame by performing the following steps:
 
@@ -87,7 +89,7 @@ sp.NN sit ontop of sp.DF and py.torch
 
 ## **1. Imports and Cleaning
 <pre><code>
-import sp00kyvectors as sp  # ✨ The full spooky toolbox
+import sp00kyvectors as sp  # ✨ The full Spectral toolbox
 # Your standard np, pd, and plt cmds work as this wrapper sits on top of them all 
 
 df = sp.df(path_to_messy_csv_folder)
@@ -209,37 +211,7 @@ print(v)  # Vector(mean=3.0, std=1.58, ...)
 - Methods use `scipy.stats`, `numpy`, and `matplotlib`
 - Entropy assumes aligned distributions (normalized first)
 
----
 
 ## 🧛 License
 
-MIT — haunt and hack as you please.
-
----
-
-## 🕸️ Coming Soon
-
-- 3D support
-- More spooky plots
-- CLI interface: `spookify file.csv --plot`
-
----
-
-## 👻 Contributing
-
-Spirits and sorcerers of all levels are welcome. Open an issue, fork the repo, or summon a pull request.
-
----
-
-## 🧛 License
-
-MIT — you’re free to haunt this code as you wish as long as money is never involved! 
-
----
-
-✨ Stay spooky, and may your vectors always point toward the unknown. 🕸️
-
-# Student Opportunities 🎓💻
-
-Learning to code, using GitHub, or just curious? Reach out and join the team!  
-We’re currently looking for volunteers of all skill levels. Everyone’s welcome!
+MIT — you’re free to haunt this code as you wish as long as money is never involved! For the idea of teaching Science rather than obscuring so we may all better understand wtf is going on.
